@@ -1,0 +1,5 @@
+host: dev.something.com
+urls:
+  - www.google.com
+  - www.yahoo.com
+count: <%= 5 + 6 %>
