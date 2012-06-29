@@ -33,10 +33,8 @@ If you are using in a Rails app, you can do something like this...
       access_key: 123ABC
       secret_key: ABC123
 
-
     # config/development.yml
     domain:  dev.mycoolapp.com
-
 
     # app/models/app_config.rb
     AppConfig = ConfigSpartan.create do
