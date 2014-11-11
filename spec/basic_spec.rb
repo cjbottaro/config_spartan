@@ -25,6 +25,13 @@ describe ConfigSpartan do
       config.nest.name.lname.should == "bottaro"
     end
 
+    it context "raises NoMethodError" do
+      @config = ConfigSpartan.create{ file("spec/config2.yml") }
+      expect{ @config.nothing }.to raise_error( NoMethodError )
+      expect{ @config.nest.nothing }.to raise_error( NoMethodError )
+    end
+
   end
+
 
 end
