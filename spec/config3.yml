@@ -1,0 +1,9 @@
+host: prod.something.com
+urls:
+  - www.yandex.com
+nest:
+  something: blah
+  name:
+    mname: mega
+  other_urls:
+    - c
