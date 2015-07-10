@@ -3,3 +3,4 @@ urls:
   - www.google.com
   - www.yahoo.com
 count: <%= 5 + 6 %>
+really_nothing:

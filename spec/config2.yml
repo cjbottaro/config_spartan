@@ -7,3 +7,6 @@ nest:
   name:
     fname: coco
     lname: bottaro
+  other_urls:
+    - a
+    - b
