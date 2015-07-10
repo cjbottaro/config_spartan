@@ -4,4 +4,4 @@ source 'https://rubygems.org'
 gemspec
 
 
-gem 'rake', group: :test #for travis
+gem 'rake', groups: ['test'] #for travis
